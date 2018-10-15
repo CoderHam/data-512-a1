@@ -2,7 +2,7 @@
 
 ## Goal of the Project
 
-- The goal of this assignment is to construct, analyze, and publish a dataset of monthly traffic on English Wikipedia from January 1 2008 through September 30 2018. All of the analysis is performed in the Jupyter notebook and the data is made available in `.json` and `.csv` files. This ReadMe acts as the documentation.
+- The goal of this assignment is to construct, analyze, and publish a dataset of monthly traffic on English Wikipedia from January 1 2008 through September 30 2018. All of the analysis is performed in the [Jupyter notebook](https://github.com/CoderHam/data-512-a1/blob/master/hcds-a1-data-curation.ipynb) and the data is made available in `.json` (the naming conventio is `apiname_accesstype_firstmonth-lastmonth.json`) and `.csv` files. This ReadMe acts as the documentation.
 
 - The purpose of the assignment is to demonstrate that I can follow the best practices for open scientific research in designing and implementing my project, and make my project fully reproducible by others: from data collection to data analysis.
 
@@ -43,11 +43,13 @@ The final data is stored in a `csv` file for easy access and the schema/descript
 |pageview_desktop_views| number of views for desktop clients reported by the Pageviews API |
 |pageview_mobile_views| number of views for mobile clients reported by the Pageviews API |
 
-The csv file is provided in this repository: `en-wikipedia_traffic_200712-201809.csv`
+The csv file is provided in this repository: [en-wikipedia_traffic_200712-201809.csv](https://github.com/CoderHam/data512-assignment-1/blob/master/en-wikipedia_traffic_200801-201709.csv)
 
 ## Final Results 
 
 The data was visualized using `matplotlib` as shown below:
+
+![Wikipedia Page Views Monthly between 2008 and 2018](https://github.com/CoderHam/data512-assignment-1/blob/master/wikipedia_pagevies_monthly.png)
 
 The sudden dip or difference between values from pagecounts to pageviews can be attributed to the filteration of web crawlers or spiders. 
 
